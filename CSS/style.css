@@ -1,0 +1,96 @@
+*{font-family: 'Galada', cursive;
+}
+
+body{
+    background-image: linear-gradient(120deg,#487eb0, purple );
+    min-height: 100vh;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container:first-child{
+    text-align: center;
+}
+
+.auth-form{
+    margin: 0 auto;
+    padding: 30px;
+    background-image: linear-gradient(120deg,#add7ff, rgb(190, 188, 58));
+    border-radius: 4px;
+}
+
+.field{
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.field:last-child{
+    margin-bottom: 0;
+}
+
+.field > input {
+   border: 0;
+   border-radius: 4px; 
+   padding: 5px;
+}
+
+.field:last-child > button{
+    padding: 10px;
+    color: #ffffff;
+    background-color: green;
+    border: 0;
+    border-radius: 4px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.field:last-child > button:hover{
+    background-color: greenyellow;
+}
+
+.field:last-child{
+    text-align: center;
+}
+
+ul{ max-width: 250px;
+    align-items: center;
+    margin: 0 auto;
+    list-style-type: none;
+}
+li{
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.fas{
+    float: right;
+}
+
+.task-line{
+ 
+    width: 100%;
+    background-color: rgba(255 , 255, 255, 0.5);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+    
+}
